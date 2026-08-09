@@ -59,7 +59,7 @@ public class DairyMaterial extends FoodMaterial{
     @Override
     public String toTableRow(){
         return super.toTableRow() 
-                + String.format(" %-20.2f %-20.2f %-20.2f",
+                + String.format(" %-10.2f %-10.2f %-10.2f",
                     proteinPercent, fatPercent, lactosePercent);
     }
 }

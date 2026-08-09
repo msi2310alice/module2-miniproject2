@@ -50,7 +50,7 @@ public class FatMaterial extends FoodMaterial {
     @Override
     public String toTableRow(){
         return super.toTableRow()
-                + String.format(" %-20.2f %-20.2f %-20s",
+                + String.format(" %-10.2f %-10.2f %-10s",
                     fatPercent, meltingPoint, fatSource);
     }
 }

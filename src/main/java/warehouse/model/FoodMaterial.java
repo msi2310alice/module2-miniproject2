@@ -85,7 +85,7 @@ public class FoodMaterial implements Comparable<FoodMaterial> {
             + moisturePercent;
     }
     public String toTableRow(){
-        return String.format("%-10s %-50s %-20.2f %-20.2f %-10s %-20s %-10.2f",
+        return String.format("%-10s %-20s %-10.2f %-10.2f %-5s %-10s %-10.2f",
             id,  name, price, quantity, unit, supplier, moisturePercent
         );
 

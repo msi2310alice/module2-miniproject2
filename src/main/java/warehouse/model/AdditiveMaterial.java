@@ -50,7 +50,7 @@ public class AdditiveMaterial extends FoodMaterial {
     @Override
     public String toTableRow(){
         return super.toTableRow() 
-                + String.format(" %-20s %-20.2f %-20s",
+                + String.format(" %-10s %-10.2f %-10s",
                     function, recommendedDosage, additiveType);
     }
     
